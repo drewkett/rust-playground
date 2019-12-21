@@ -240,7 +240,7 @@ version = "=1.5.3"
 
 [dependencies.encoding_rs]
 package = "encoding_rs"
-version = "=0.8.20"
+version = "=0.8.22"
 
 [dependencies.env_logger]
 package = "env_logger"
@@ -396,7 +396,7 @@ version = "=0.3.1"
 
 [dependencies.hermit_abi]
 package = "hermit-abi"
-version = "=0.1.3"
+version = "=0.1.5"
 
 [dependencies.hex]
 package = "hex"
@@ -420,7 +420,7 @@ version = "=0.1.21"
 
 [dependencies.http_body]
 package = "http-body"
-version = "=0.3.0"
+version = "=0.3.1"
 
 [dependencies.http_body_0_1_0]
 package = "http-body"
@@ -436,7 +436,7 @@ version = "=1.3.0"
 
 [dependencies.hyper]
 package = "hyper"
-version = "=0.13.0"
+version = "=0.13.1"
 
 [dependencies.hyper_0_12_35]
 package = "hyper"
@@ -484,7 +484,7 @@ version = "=0.1.18"
 
 [dependencies.js_sys]
 package = "js-sys"
-version = "=0.3.32"
+version = "=0.3.33"
 
 [dependencies.kernel32]
 package = "kernel32-sys"
@@ -508,7 +508,7 @@ version = "=0.1.4"
 
 [dependencies.libsqlite3_sys]
 package = "libsqlite3-sys"
-version = "=0.16.0"
+version = "=0.17.0"
 
 [dependencies.linked_hash_map]
 package = "linked-hash-map"
@@ -908,7 +908,7 @@ version = "=0.16.9"
 
 [dependencies.rusqlite]
 package = "rusqlite"
-version = "=0.20.0"
+version = "=0.21.0"
 
 [dependencies.rustc_demangle]
 package = "rustc-demangle"
@@ -964,12 +964,12 @@ version = "=0.7.0"
 
 [dependencies.serde]
 package = "serde"
-version = "=1.0.103"
+version = "=1.0.104"
 features = ["derive", "rc"]
 
 [dependencies.serde_derive]
 package = "serde_derive"
-version = "=1.0.103"
+version = "=1.0.104"
 
 [dependencies.serde_json]
 package = "serde_json"
@@ -1002,7 +1002,7 @@ version = "=0.4.2"
 
 [dependencies.smallvec]
 package = "smallvec"
-version = "=1.0.0"
+version = "=1.1.0"
 
 [dependencies.smallvec_0_6_13]
 package = "smallvec"
@@ -1104,11 +1104,16 @@ version = "=0.3.1"
 
 [dependencies.time]
 package = "time"
+version = "=0.2.0"
+
+[dependencies.time_0_1_42]
+package = "time"
 version = "=0.1.42"
 
 [dependencies.tokio]
 package = "tokio"
-version = "=0.2.4"
+version = "=0.2.6"
+features = ["full"]
 
 [dependencies.tokio_0_1_22]
 package = "tokio"
@@ -1290,31 +1295,31 @@ version = "=0.7.0"
 
 [dependencies.wasm_bindgen]
 package = "wasm-bindgen"
-version = "=0.2.55"
+version = "=0.2.56"
 
 [dependencies.wasm_bindgen_backend]
 package = "wasm-bindgen-backend"
-version = "=0.2.55"
+version = "=0.2.56"
 
 [dependencies.wasm_bindgen_macro]
 package = "wasm-bindgen-macro"
-version = "=0.2.55"
+version = "=0.2.56"
 
 [dependencies.wasm_bindgen_macro_support]
 package = "wasm-bindgen-macro-support"
-version = "=0.2.55"
+version = "=0.2.56"
 
 [dependencies.wasm_bindgen_shared]
 package = "wasm-bindgen-shared"
-version = "=0.2.55"
+version = "=0.2.56"
 
 [dependencies.wasm_bindgen_webidl]
 package = "wasm-bindgen-webidl"
-version = "=0.2.55"
+version = "=0.2.56"
 
 [dependencies.web_sys]
 package = "web-sys"
-version = "=0.3.32"
+version = "=0.3.33"
 
 [dependencies.weedle]
 package = "weedle"
